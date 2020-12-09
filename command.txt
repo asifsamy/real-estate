@@ -1,0 +1,51 @@
+Inside project folder
+npx create-react-app frontend
+
+Inside backend
+pip install pipenv
+*** pipenv shell ***
+pipenv install django djangorestframework django-cors-headers djangorestframework-simplejwt Pillow psycopg2 psycopg2-binary
+
+Postgres Database (p.w. root, port: 5432 => F:\Masters\postgre_install\data\postgresql.conf => listen_addresses)
+CREATE DATABASE real_estate OWNER postgres;
+
+django-admin startproject real_estate .
+
+python manage.py startapp accounts
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py runserver
+
+python manage.py startapp realtors
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py createsuperuser
+(email: admin@email.com, Name: Admin, pw: B***8****6)
+
+For React
+npm run start
+
+npm install --save react-router-dom redux redux-thunk react-redux redux-devtools-extension
+
+npm install --save node-sass@4.14.1 
+(check the node version)
+
+npm install --save uuid
+
+npm install --save axios
+
+npm add formik
+npm add yup
+
+npm install --save react-helmet
+
+npm install react-loader-spinner --save
+
+***npm run build
+copy the build folder from frontend and paste it to backend folder and then run python server
