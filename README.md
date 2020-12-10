@@ -6,6 +6,10 @@
   Back End: Django and Django REST Framework </br>
   Database: PostGreSQL
   
+### Packeges Used
+  Front End: react-router-dom, redux, redux-thunk, react-redux, redux-devtools-extension, node-sass@4.14.1, uuid, axios, formik, yup, react-loader-spinner </br>
+  Back End: djangorestframework, django-cors-headers, djangorestframework-simplejwt, Pillow, psycopg2 </br>
+  
 ### Screenshots
   
   Home Page with Search Form (Filter)
